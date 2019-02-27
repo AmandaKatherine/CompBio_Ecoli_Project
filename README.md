@@ -2,8 +2,23 @@
 
 A brief desciption: The E. coli K12 strain was isolated in 1922. Using this pipeline, we will align the resquenced data against the original strain used in labs. Because the nature of bacteria is to mutate, we want to check how similar our sequence is to the original. This pipeline is set up to work from any directory. 
 
-To run this project, one will need SPAdes, prokka, TopHot2, Bowtie2, and Cufflinks, SRA-toolkit, wget, Python3. The pipeline will not run unless these tools are installed. 
+Tools to run this project
+1) SPAdes v3.11.1
+2) Prokka
+3) tophat v2.1.1,
+4) bowtie v1.2.2
+5) cufflinks v2.2.1
+6) SRA-toolkit
+7) wget
+8) Python3
 
+The pipeline will not run unless these tools are installed. 
+
+running the pipeline:
+$ git clone https://github.com/AmandaKatherine/CompBio_Ecoli_Project.git
+
+After the download is done, 
+python3 COMPBIO_AMANDA_WILLS.py
 
 The Steps are as following:
 1) downloading the Ecoli data from ncbi and fastq dumping to a usable form
